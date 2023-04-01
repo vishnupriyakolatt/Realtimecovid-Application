@@ -1,0 +1,61 @@
+.pfpic {
+  border-radius: 50%;
+  width: 190px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.card {
+  width: 310px;
+  height: 390px;
+  background: rgba(253, 253, 253, 0.953);
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 2px 8px 0px black;
+  border-bottom: 15px solid #24e491;
+  transform: translate(5px, 38px);
+}
+.upperContainer {
+  height: 98px;
+  background: linear-gradient(to left, #282430, #170d38);
+  border-top: 5px;
+  border-radius: 5px 0 0 0;
+}
+/*  background: linear-gradient(to left, #2d00f7, #ff0291);
+*/
+.imageContainer {
+  background: white;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  padding: 2px;
+  transform: translate(100px, 45px);
+  justify-content: center;
+  align-items: center;
+}
+.pfImage {
+  border-radius: 50%;
+  width: 100px;
+  width: 100px;
+}
+.lowerContainer {
+  width: 300px;
+  margin-top: 60px;
+  justify-content: center;
+  transform: translate(2px, 5px);
+
+  background: rgba(253, 253, 253, 0.953);
+  text-align: center;
+}
+.badgeImage {
+  transform: translate(2px, 78px);
+  width: 50px;
+}
+.description {
+  transform: translate(5px, 38px);
+  font-size: 18px;
+}

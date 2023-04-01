@@ -1,0 +1,123 @@
+.users {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.users td,
+.users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.users tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users tr:hover {
+  background-color: #ddd;
+}
+
+.users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.savechanges {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 15px;
+}
+.savechanges:hover {
+  background-color: #45a049;
+}
+.container {
+  margin: 10px auto;
+  width: 325px;
+  border-radius: 5px;
+  align-items: center;
+}
+.blockbuttoncontainer {
+  margin: 160px auto;
+  width: 300px;
+  border-radius: 5px;
+  align-items: center;
+}
+.backbutton {
+  background-color: #f1f1f1;
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+.backbutton:hover {
+  border: 1px solid grey;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    margin: 10px auto;
+    width: 700px;
+    align-items: center;
+  }
+  .blockbuttoncontainer {
+    margin: 300px auto;
+    width: 500px;
+    border-radius: 5px;
+    align-items: center;
+  }
+}
+.block1 {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #555555;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+
+.block1:hover {
+  border: 1px solid black;
+}
+.block2 {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #e7e7e7;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+
+.block2:hover {
+  border: 1px solid black;
+}

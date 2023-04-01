@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Table css*/
+
+.patientsTbl {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.patientsTbl td,
+.patientsTbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.patientsTbl tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.patientsTbl tr:hover {
+  background-color: #ddd;
+}
+
+.patientsTbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 5px;
+  align-items: center;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    margin: 10px auto;
+    width: 800px;
+    align-items: center;
+  }
+}
